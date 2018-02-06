@@ -19,7 +19,7 @@
 		<mkdir  dir="${dist.home}"/>
 		<mkdir  dir="${work.home}/WEB-INF/classes"/>
 		<mkdir  dir="${war.home}"/>
-		<!-- Copy static HTML and JSP files to work dir -->
+		<!-- Copy static HTML and JSP files to work dir------ -->
 		<copy todir="${work.home}">
 			<fileset dir="${web.home}"/>
 		</copy>
